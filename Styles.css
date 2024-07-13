@@ -1,42 +1,61 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #f8f9fa;
-    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-}
-
-nav {
-    background-color: #343a40;
-    padding: 1em;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    background-color: #444;
+    overflow: hidden;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 1em;
+    float: left;
 }
 
 nav ul li a {
-    color: #fff;
+    display: block;
+    padding: 14px 20px;
     text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #555;
 }
 
 main {
-    padding: 2em;
-}
-
-section {
-    margin-bottom: 2em;
+    padding: 20px;
 }
 
 h2 {
-    border-bottom: 2px solid #343a40;
-    padding-bottom: 0.5em;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 10px;
 }
